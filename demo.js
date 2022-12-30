@@ -1,4 +1,2 @@
-const fs = require('fs');
-
-
-fs.writeFileSync('demo.txt', "hello this is node");
+var a = 5 + "5";
+console.log(a);

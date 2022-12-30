@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getDetails(){
+            document.getElementById('hostName').innerHTML = document.location.host
+            document.getElementById('ip').innerHTML = document.location.href
+            document.getElementById('protocol').innerHTML = document.location.protocol
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <button onclick="getDetails()">get Details</button>
+        <h2>host name</h2>
+        <p id="hostName"></p>
+        <h2>Ip address</h2>
+        <p id="ip"></p>
+        <h2>Protocol</h2>
+        <p id="protocol"></p>
+    </div>
+</body>
+</html>

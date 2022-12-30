@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let childrens = 2;
+      let partnerName = "Binod";
+    //   let locationn = document.location.href;
+      let locationn = navigator.geolocation.getCurrentPosition((data) => {
+        var loc = data
+      })
+
+      console.log(childrens);
+      console.log(partnerName);
+      console.log(locationn);
+      console.log(`You will be a ${locationn}, and married to ${partnerName} with ${childrens} kids.`);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

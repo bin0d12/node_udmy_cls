@@ -1,55 +1,58 @@
-// when you will create a variable, it will create a memory block and it will store the data in memory block
-// it will store directly primitive value, when you create non-primitive value it will store the value b reference,
-// /when you update the value or edit the value in primitive it won't effect and non-primitive it will effect
+// // when you will create a variable, it will create a memory block and it will store the data in memory block
+// // it will store directly primitive value, when you create non-primitive value it will store the value b reference,
+// // /when you update the value or edit the value in primitive it won't effect and non-primitive it will effect
 
-// immutable;
-// here it will change the value but it won't be update the value
-// primitive datatypes are immutable
-// it is coming under Deep copy
-let a = 1;
-console.log(a);  // 1
+// // immutable;
+// // here it will change the value but it won't be update the value
+// // primitive datatypes are immutable
+// // it is coming under Deep copy
+// let a = 1;
+// console.log(a);  // 1
 
-let b = a;
-console.log(b); // 1
+// let b = a;
+// console.log(b); // 1
 
-a = 2;
-console.log(a);  //2
-console.log(b);  //1
-
-
-
-// mutable;
-// this value changes after adding a new value or change the value
-// non-primitive datatypes are mutable
-// it is coming under shallow copy
-
-let obj = {name: "binod", age: 24};
-console.log(obj);
-
-let obj1 = obj;
-console.log(obj1);
-
-obj['occupation'] = "engg";
-
-console.log(obj);
-console.log(obj1);
+// a = 2;
+// console.log(a);  //2
+// console.log(b);  //1
 
 
 
+// // mutable;
+// // this value changes after adding a new value or change the value
+// // non-primitive datatypes are mutable
+// // it is coming under shallow copy
+// let obj = {name: "binod", age: 24};
+// console.log(obj);
 
-// undefined;
+// let obj1 = obj;
+// console.log(obj1);
 
-let valueOf;
-if(valueOf == undefined){
-    console.log("value is not assigned");
-} else{
-    console.log("value is not assigned");
-}
-console.log(typeof valueOf);
-console.log(typeof null);
-console.log(typeof undefined);
+// obj['occupation'] = "engg";
+
+// console.log(obj);
+// console.log(obj1);
 
 
+
+
+// // undefined;
+
+// let valueOf;
+// if(valueOf == undefined){
+//     console.log("value is not assigned");
+// } else{
+//     console.log("value is not assigned");
+// }
+// console.log(typeof valueOf);
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+
+var a = null;
+var b = 1 ;
+var q = a + b
+console.log(q)
 
 
 
@@ -77,4 +80,11 @@ console.log(typeof undefined);
 // obj['occupation'] = "engg"
 
 // console.log(obj, "after adding one value into that");
-// console.log(obj1, "at first we take reference of obj so we update some value in obj, we will see it will update in obj1 or not");
+// console.log(obj1, "at first we take reference of obj so we update some value in obj, 
+// we will see it will update in obj1 or not");
+
+
+console.log(typeof null + 1)
+console.log(typeof null + "binod")
+console.log(typeof null +  [] )
+console.log(typeof {} +  [] )

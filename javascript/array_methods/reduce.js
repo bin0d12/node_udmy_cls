@@ -10,3 +10,8 @@ let arr = [1,2,3,4,5];
     return a + b
 })
 console.log(arr1);
+
+var d=[]
+var name='chaitu'
+var d = name;
+console.log(d)

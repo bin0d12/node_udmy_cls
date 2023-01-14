@@ -2,13 +2,12 @@
 //     console.log(name);
 //     console.log(age);
 //     var name="sujit";
-//     var age=21;
+//     let age=21;
 // }
 // sayhi()
 
-// for (var i=0; i<=3; i++){
+// for (var i=0; i<3; i++){
 //     setTimeout(()=>console.log(i));
-
 // }
 
 // let temp={
@@ -23,8 +22,24 @@
 // }
 // console.log(temp.sum());
 // console.log(temp.multi());
+// var d = 58
+// function f1(a,a){
+//     console.log(this.d);
 
-// console.log(+true);
+//     return a + a
+// }
+// console.log(f1( 2 , 5))
+
+
+// let data = (a,b) => {
+//     console.log(this.d);
+//     return a + b
+// }
+// console.log(data(2,5));
+
+
+
+// console.log(-true);
 // console.log(!'abc');
 
 // const bind= {
@@ -67,7 +82,8 @@
 // sum("10",20)
 
 // let x=1;
-// console.log(x++);
+// console.log(++x);
+// console.log(x);
 
 // console.log(eval('10*10+5'));
 
@@ -100,11 +116,13 @@
 
 
 // let x=[..."sujit"];
+// console.log(x);
 // var r= x.reverse()
+// console.log(r);
 // var c=r.join('')
 // console.log(c);
 
-// console.log(3+4+'5');
+// console.log("3"+4+5);
 
 // const obj={
 //     a:"one",
@@ -112,7 +130,7 @@
 //     a :"three",
 //     d:20,
 //     e:50,
-//     f:d+e
+//     f: this.d+this.e
 // }
 // console.log(obj);
 
@@ -138,4 +156,22 @@
 
 // let x=10;
 //  y=(x++,x)
-// console.log(y);
+
+
+// function f1(){
+//     a = 20;
+//     let b = a;
+//     return b
+// }
+// console.log(f1())
+
+// let arr = new String();
+// let arr1 = "";
+
+// console.log(arr, typeof arr);
+// console.log(arr1, typeof arr1);
+
+function foo(){
+    console.log(foo())
+}
+foo()  // Maximum call stack size exceeded

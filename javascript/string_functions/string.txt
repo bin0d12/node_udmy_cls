@@ -1,0 +1,48 @@
+what is String?
+> The string object is used to represent and manipulate sequence of character.
+
+Description:
+  > it is used to hold the data that can be represented in text form.
+
+Creating string:
+
+Strings can be created as primitives, from string literals, or as objects,
+ 
+
+ let str1 ="A primitive";
+ let arr2 = 'also a primitive';
+ let arr3 = `yet another primitive`
+
+using the String() constructor:
+
+let str = new String("A string object")
+
+
+character access
+>There are two ways to access an individual character in a string. 
+>The first is the charAt() method:
+"cat". charAt(1)  // a
+
+>The other way is to treat the string as an array-like object,
+ where individual characters correspond to a numerical index:
+
+ "cat"[1]
+
+
+ String primitives and String objects:
+ String literals (denoted by double or single quotes) and strings returned from String calls 
+ in a non-constructor context (that is, called without using the new keyword) are primitive strings.
+  In contexts where a method is to be invoked on a primitive string or a property lookup occurs, 
+  JavaScript will automatically wrap the  string primitive and call the method or 
+  perform the property lookup on the wrapper object instead.
+
+  const foo = "foo";
+
+console.log(typeof foo);
+const strPrimitive1 = String(1)
+console.log(typeof strPrimitive1);
+const strPrimitive2 = String(true)
+console.log(typeof strPrimitive2);
+
+const objStr = new String(foo)
+console.log(objStr, typeof objStr);

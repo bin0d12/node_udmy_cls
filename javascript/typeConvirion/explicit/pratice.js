@@ -1,0 +1,17 @@
+console.log(typeof ("S" + ""),"1")
+console.log(typeof ("S" + 1),"2")
+console.log(typeof ("S" + undefined),"3")
+console.log(typeof ("s" + null),"4")
+console.log(typeof ("s" + true),"5")
+console.log(typeof (1 + 2),"6")
+console.log(typeof (2 + undefined),"7")
+console.log(typeof (3 + null),"8")
+console.log(typeof (5 + true),"9")
+console.log(typeof (true + false),"11")
+console.log(typeof (true + null),"12")
+console.log(typeof (false + undefined),"13")
+console.log(typeof (null + null),"14")
+console.log(typeof (null + undefined),"15")
+console.log(typeof (undefined + undefined),"16")
+console.log(typeof (true + true));
+

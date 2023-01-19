@@ -1,10 +1,10 @@
-// function sayhi(){
-//     console.log(name);
-//     console.log(age);
-//     var name="sujit";
-//     let age=21;
-// }
-// sayhi()
+function sayhi(){
+    console.log(name);
+    console.log(age);
+    var name="sujit";
+    let age=21;
+}
+sayhi()
 
 // for (var i=0; i<3; i++){
 //     setTimeout(()=>console.log(i));
@@ -171,7 +171,7 @@
 // console.log(arr, typeof arr);
 // console.log(arr1, typeof arr1);
 
-function foo(){
-    console.log(foo())
-}
-foo()  // Maximum call stack size exceeded
+// function foo(){
+//     console.log(foo())
+// }
+// foo()  // Maximum call stack size exceeded

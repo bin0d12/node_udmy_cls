@@ -6,8 +6,8 @@
 var a = 10;
 var b = a
 
-a = 20;
-console.log(a, b);
+a = 20; 
+console.log(a, b);   // 20, 10
 
 
 // non-primitive
@@ -18,6 +18,7 @@ var obj = {name: "binod"}
 var objChange = obj;
 // 1st option to update the data
 obj.occupation = "engg"
+console.log();
 // second option to update the data
 obj["age"] = 25
 console.log(obj, objChange);

@@ -1,6 +1,6 @@
 // function declaration
 // it is like hoisting
-// before dclaration function you can access with function expression
+// before declaration function you can access with function expression
 console.log(add(2,5));
 
 function add(a,b){

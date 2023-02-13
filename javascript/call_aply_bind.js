@@ -1,4 +1,4 @@
-let nameData = {
+let nameData = { 
     firstName: "binod Kumar",
     lastName: "sahu",
     // if you want to pass the parameter you can add when you will 
@@ -17,7 +17,7 @@ let anotherNameData = {
 // nameData.fullName.call(anotherNameData, "software engg", 24)
 // call methods
 // using function method we call borrowing function, we can borrow function from other object and use it data from other object
-// when you will create a object inside object ou will create a method in that method if you write this keyword it will refer that object name.
+// when you will create a object inside object, u will create a method in that method if you write this keyword it will refer that object name.
 
 // bind 
 

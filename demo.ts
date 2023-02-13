@@ -1,3 +1,1 @@
-let a = 5 + "5";
-
-console.log(a)
+console.log(10 + "10");

@@ -74,7 +74,7 @@ let function1 = (name) => {
 // this is two function pass at a time
 // let defineFun1 = function1("binod")("ui")
 // defineFun1
-// passing in diffent funtion
+// passing in different function
 let defineFun1 = function1("binod")
 defineFun1("dev")
 defineFun1("dev2")
